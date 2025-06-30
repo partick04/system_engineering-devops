@@ -1,0 +1,15 @@
+total 0
+drwxr-xr-x 1 patrick patrick 4096 Jun 30 01:08 .
+drwxr-xr-x 1 patrick patrick 4096 Jun 27 03:28 ..
+-rwxr-xr-x 1 patrick patrick   32 Jun 27 03:02 0-hello_world
+-rwxr-xr-x 1 patrick patrick   28 Jun 27 03:25 1-confused_smiley
+-rwxr-xr-x 1 patrick patrick   28 Jun 27 03:36 2-hellofile
+-rwxr-xr-x 1 patrick patrick   39 Jun 27 03:49 3-twofiles
+-rwxr-xr-x 1 patrick patrick   29 Jun 27 04:00 4-lastlines
+-rwxr-xr-x 1 patrick patrick   29 Jun 27 04:06 5-firstlines
+-rw-r--r-- 1 patrick patrick   40 Jun 27 04:11 6-third_line
+-rwxr-xr-x 1 patrick patrick   74 Jun 30 01:02 7-file
+-rwxr-xr-x 1 patrick patrick   36 Jun 30 01:08 8-cwd_state
+-rw-r--r-- 1 patrick patrick  580 Jun 27 02:07 README.md
+-rw-r--r-- 1 patrick patrick    0 Jun 30 01:08 ls_cwd_content
+-rw-r--r-- 1 patrick patrick   28 Jun 27 03:48 touch
