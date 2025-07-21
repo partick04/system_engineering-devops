@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
-# This script displays the PID and process name for all processes containing the word "bash"
+# This script displays the PID and full command path for all processes with names containing "bash"
 
-pgrep -a bash | awk '{print $1, $2}'
+for pid in $(pgrep bash); do
+    if [ -r "/proc/$pid/comm" ] && [ -r "/proc/$pid/exe" ]; then
+        cmd=$(readlink -f "/proc/$pid/exe")
+        echo "$pid $cmd"
+    fi
+done
+
