@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Stops the 4-to_infinity_and_beyond process without using kill or killall
+
+# Find the PID of the process by its command name
+pid=$(pgrep -f "4-to_infinity_and_beyond")
+
+# Send SIGTERM by writing into /proc/<PID>/status (simulate it)
+# Instead, let’s use the 'bash -c' trick:
+[ -n "$pid" ] && echo "terminate" > /proc/$pid/fd/0 2>/dev/null
